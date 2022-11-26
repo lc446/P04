@@ -9,9 +9,8 @@
     <script src="js/bootstrap-bundle.js"></script>
 </head>
 <body class="p-3 m-0 border-0 bd-example">
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bd-gray-400">
     <div class="container-fluid">
-        <img class="d-block mx-auto mb-4" src="images/Quake-logo.svg" alt="Quake Logo" width="72" height="56">
         <a class="navbar-brand" href="index.html">Quake Mapping</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,22 +44,42 @@
 </nav>
 
 <main>
-    <h1 class="visually-hidden">Heroes examples</h1>
-
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="images/Quake-logo.svg" alt="Quake Logo" width="72" height="57">
-        <h1 class="display-5 fw-bold">Centered hero</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-            </div>
+<div class="px-4 pt-5 my-5 text-center">
+    <h1 class="display-4 fw-bold">Welcome to Lucca's Quake Mapping Dungeon</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">This homepage is your portal to mapping design philosophy, guidelines, and resources. I cover the official maps, some of the best out of the community, and my own!</p>
+        <p class="lead mb-4">To get started, navigate to any of the following pages listed below.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 60vh;">
+        <div class="container px-5">
+            <img src="images/advertisement.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
         </div>
     </div>
-</main>
-<footer>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"><a class="nav-link" href="official.html">Official Maps</a></button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"><a class="nav-link" href="community.html">Community Maps</a></button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"><a class="nav-link" href="lucca.html">Lucca's Maps</a></button>
+    </div>
+</div>
 
-</footer>
+
+
+</main>
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="text-muted">&copy; 2022 Lucca Cioffi</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted" href="https://www.quaddicted.com/reviews/?filtered=Nodding">Portal to Quaddicted, filtered by my maps.<img class="d-block mx-auto mb-4" src="images/Quake-logo.svg" alt="Quake Logo" width="72" height="57"></a>
+            </li>
+        </ul>
+    </footer>
+</div>
 </body>
 </html>

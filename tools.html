@@ -1,10 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Quake-logo.svg">
+    <title>Quake Map Making</title>
+    <script src="js/bootstrap-bundle.js"></script>
 </head>
-<body>
+<body class="p-3 m-0 border-0 bd-example">
+<nav class="navbar navbar-expand-lg bd-gray-400">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Quake Mapping</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="official.html">Official</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="community.html">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lucca.html">My Map</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More Information
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="information.html">Contact</a></li>
+                        <li><a class="dropdown-item" href="tools.html">Tools</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+<main>
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold">Tools and How to Play!</h1>
+        <div class="col-lg-6 mx-auto">
+            <h2>Play Quake</h2>
+            <p class="lead mb-4">Playing Quake is most easily done by buying it on Steam. It just received an anniversary update bringing Quake's official launcher the easiest way to play.</p>
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://store.steampowered.com/widget/2310/" width="646" height="190"></iframe>
+            </div>
+            <p class="lead mb-4">To avoid having to make a Bethesda account to play online however, I highly recommend using the Quakespasm source port. All you need from your purchased copy of Quake is the "id1" folder, with its PAK1.pak and PAK0.pak, move that folder into the directory with Quakespasm and you are playing Quake!</p>
+            <a href="https://sourceforge.net/projects/quakespasm/">Download Quakespasm here</a>
+            <h2>Mapping Tools</h2>
+            <p class="lead mb-4">So I've inspired you to make a map of your own. No fear! The main things you will need is a map editor and compilation tools.</p>
+            <p class="lead mb-4">First thing you need is the editor. The best is TrenchBroom. You will need to link TrenchBroom to a port of Quake in order to test out your map.</p>
+            <a href="https://github.com/TrenchBroom/TrenchBroom/releases/latest">Link to latest TrenchBroom release on Github</a>
+            <p class="lead mb-4">The other thing you will need is compilation tools. These require some setup and I recommend this video from dumptruck_ds on YouTube as a means to get you fully started.</p>
+            <a href="https://github.com/ericwa/ericw-tools/releases/latest"> Link to latest ericw-buildtools release on Github</a>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gONePWocbqA?rel=0" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="text-muted">&copy; 2022 Lucca Cioffi</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted" href="https://www.quaddicted.com/reviews/?filtered=Nodding">Portal to Quaddicted, filtered by my maps.<img class="d-block mx-auto mb-4" src="images/Quake-logo.svg" alt="Quake Logo" width="72" height="57"></a>
+            </li>
+        </ul>
+    </footer>
+</div>
 </body>
 </html>

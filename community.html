@@ -1,10 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Quake-logo.svg">
+    <title>Quake Map Making</title>
+    <script src="js/bootstrap-bundle.js"></script>
 </head>
-<body>
+<body class="p-3 m-0 border-0 bd-example">
+<nav class="navbar navbar-expand-lg bd-gray-400">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Quake Mapping</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="official.html">Official</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="community.html">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lucca.html">My Map</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More Information
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="information.html">Contact</a></li>
+                        <li><a class="dropdown-item" href="tools.html">Tools</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+<main>
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold">A Community Map</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Arcane Dimensions is the best showcase for what a community can do for a game. One map in particular really pushes even more modern source ports of Quake to its limits.</p>
+            <h4>Tears of the False God</h4>
+            <figure class="figure">
+                <img src="images/arcane/tears.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                <figcaption class="figure-caption">The first thing players see when loading the map</figcaption>
+            </figure>
+            <p class="lead mb-4">Tears of the False God has the player run around a large map and has multiple exits. This is largely due to its emphasis on a lore of a False God trying to overtake the "real" one in the real one's realm.</p>
+            <figure class="figure">
+                <img src="images/arcane/spasm0002.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                <figcaption class="figure-caption">A zoomed out view of the main play area and the first skybox used.</figcaption>
+            </figure>
+            <p class="lead mb-4">This is showcased by the map being split up into multiple "realms" that are actually cleverly all hosted on the same map. The map uses intermediate pathways to signal to the player when they are walking between realms. The most secret ones are locked away and require the player to collect the "tears" hidden around the map.</p>
+            <figure class="figure">
+                <img src="images/arcane/spasm0005.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                <figcaption class="figure-caption">The path between realms using teleporters + skybox changes.</figcaption>
+            </figure>
+            <figure class="figure">
+                <img src="images/arcane/spasm0004.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                <figcaption class="figure-caption">One of many tears to collect to unlock secret fights with the False God.</figcaption>
+            </figure>
+            <p class="lead mb-4">The movement between "realms" in this map is emphasized with the skybox changing throughout different areas. This is set when the player enters different teleporters as they traverse the level.</p>
+            <figure class="figure">
+                <img src="images/arcane/spasm0007.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                <figcaption class="figure-caption">The False God arena skybox on the main map. This is done by going to the arena normally, but not using the teleporter on the way back to the main area.</figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+
+
+</main>
+
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="text-muted">&copy; 2022 Lucca Cioffi</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted" href="https://www.quaddicted.com/reviews/?filtered=Nodding">Portal to Quaddicted, filtered by my maps.<img class="d-block mx-auto mb-4" src="images/Quake-logo.svg" alt="Quake Logo" width="72" height="57"></a>
+            </li>
+        </ul>
+    </footer>
+</div>
 </body>
 </html>
